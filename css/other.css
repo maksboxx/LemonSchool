@@ -1,0 +1,368 @@
+.img_facts{
+    width: 650px;
+}
+.decription_img{
+    font-weight: 600;
+    font-size: 20px;
+}
+.tetris{
+    text-align: center;
+    background:#F5EEDC ;
+    color: #694E4E;
+    margin: 0 auto 20px auto;
+    width: 1450px;
+    padding: 0px 0px 20px 0px;
+    border: 2px solid #886F6F;
+}  
+.tetris h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: #694E4E;
+    margin: 10px 450px 10px;
+    border: dashed 1px #886F6F;
+    padding: 10px 10px ;
+    background-color: lightgoldenrodyellow;
+}
+.space{
+    margin: 20px auto 0 auto;
+    width: 1200px;
+    height: 1250px;
+    background-color: white;
+}
+.lvl1-1{
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    display:  table-cell;
+}
+.lvl1-2{
+    width: 800px;
+    display:  table-cell;
+}
+.lvl1-2-1{
+    height: 150px;
+    background-color: yellowgreen;
+}
+.lvl1-2-2{
+    height: 150px;
+    background-color: yellow;
+}
+.lvl2-1{
+    width: 600px;
+    height: 450px;
+    background-color: lightskyblue;
+    display:  table-cell;
+}
+.lvl2-2{
+    width: 600px;
+    display:  table-cell;
+}
+.lvl2-2-1{
+    background-color: lightpink;
+    height: 150px;
+}
+.lvl2-2-2{
+    height: 150px;
+}
+.lvl2-3-1{
+    background-color: lime;
+    width: 300px;
+    height: 300px;
+    display:  table-cell;
+}
+.lvl2-3-2{
+    background-color: orange;
+    width: 300px;
+    display:  table-cell;
+}
+.lvl3-1{
+    width: 900px;
+    height: 500px;
+    background-color: red;
+    display:  table-cell;
+}
+.lvl3-2{
+    width: 300px;
+    background-color: rgb(112, 48, 216);
+    display:  table-cell;
+}
+.lvl3-1-2{
+    height: 250px;
+    background-color: maroon;
+}
+.lvl3-1-3-1{
+    height: 250px;
+    width: 450px;
+    background-color: mediumseagreen;
+    display:  table-cell;
+}
+.lvl3-1-3-2{
+    display:  table-cell;
+    width: 450px;
+    background-color: skyblue;
+}
+.lvl3-1-3-1-1{
+    height: 125px;
+    background-color: steelblue;
+}
+.lvl3-1-3-1-2{
+    height: 125px;
+    background-color: tomato;
+}
+
+/*--- FLOAT ---*/
+
+#content{
+    margin: 25px auto 25px auto;
+    width: 1200px;
+    background-color: lightyellow;
+}
+.close{
+    clear: both;
+}
+/*--- 1 Block ---*/
+.float1-1{
+    width: 400px;
+    height: 200px;
+    float: right;
+    outline: 1px lime solid;
+}
+/*--- 2 Block ---*/
+.float2-1{
+    width: 800px;
+    float: left;
+}
+.float2-2{
+    width: 400px;
+    float: left;
+}
+.float2-2-2{
+    height: 200px;
+    outline: 1px lime solid;
+}
+.float2-1-1{
+    height: 300px;
+    outline: 1px lime solid;
+}
+/*--- 3 Block ---*/
+.float3-1{
+    float: left;
+    width: 400px;
+    height: 600px;
+    background-color: lightyellow;
+    outline: 1px lime solid;
+}
+.float3-2{
+    float: left;
+    width: 800px;
+}
+.float3-2-3{
+    height: 300px;
+    outline: 1px lime solid;
+}
+.float3-2-3-1{
+    width: 400px;
+    height: 300px;
+    float: left; 
+    outline: 1px lime solid;
+}
+/*--- 4 Block ---*/
+.float4-1{
+    width: 800px;
+    float: left;
+}
+.float4-2{
+    width: 400px;
+    height: 600px;
+    float: left;
+    outline: 1px lime solid;
+}
+.float4-1-2{
+    width: 800px;
+    height: 300px;
+    float: left;
+    outline: 1px lime solid;
+}
+.float4-1-2-1{
+    width: 400px;
+    height: 300px;
+    outline: 1px lime solid;
+    float: left;
+}
+.float4-1-2-1-1{
+    height: 150px;
+    outline: 1px lime solid;
+}
+/* --- INLINE BLOCK ---*/
+
+/*--- Block 1 ---*/
+.inline1{
+    font-size: 0px;
+}
+.inline1-1{
+    font-size: 1px;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    outline: 1px lime solid;
+}
+/*--- Block 2 ---*/
+.inline2{
+    font-size: 0px;
+}
+.inline2-1{
+    font-size: 1px;
+    width: 800px;
+    display: inline-block;
+    outline: 1px lime solid;
+}
+.inline2-2{
+    font-size: 1px;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    outline: 1px lime solid;
+}
+.inline2-1-1{
+    width: 800px;
+    height: 300px;
+    outline: 1px lime solid;
+}
+.inline2-2-2{
+    width: 400px;
+    height: 200px;
+    outline: 1px lime solid;
+}
+/*--- Block 3 ---*/
+.inline3{
+    font-size: 0px;
+}
+.inline3-1{
+    font-size: 1px;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    outline: 1px lime solid;
+}
+.inline3-2{
+    font-size: 1px;
+    width: 800px;
+    display: inline-block;
+}
+.inline3-2-3{
+    width: 800px;
+    height: 300px;
+    outline: 1px lime solid;
+}
+.inline3-2-4{
+    width: 800px;
+    height: 300px;
+    outline: 1px lime solid;
+    font-size: 0px;
+}
+.inline3-2-3-1{
+    font-size: 1px;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    outline: 1px lime solid;
+}
+/*--- Block 4 ---*/
+.inline4{
+    font-size: 0px;
+}
+.inline4-1{
+    font-size: 1px;
+    width: 800px;
+    display: inline-block;
+}
+.inline4-2{
+    font-size: 1px;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    outline: 1px lime solid;
+}
+.inline4-1-2{
+    width: 800px;
+    height: 300px;
+    outline: 1px lime solid;
+    font-size: 0px;
+}
+.inline4-1-2-1{
+    font-size: 1px;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+}
+.inline4-1-2-1-1{
+    width: 400px;
+    height: 150px;
+    outline: 1px lime solid;
+}
+
+/*--- FLEX ---*/
+.flexB{
+    display: flex;
+    background-color: lightyellow;
+}
+.flexB-1{
+    flex: 0 1 400px;
+    height: 200px;
+    outline: 1px lime solid;
+}
+.flexB2{
+    flex: 0 1 800px;
+}
+.flexboxB2-1{
+    flex: 0 1 400px;
+}
+.flexB-2-1{
+    height: 300px;
+    outline: 1px lime solid;
+}
+.flexB-2-2{
+    height: 200px;
+    outline: 1px lime solid;
+}
+.flexB-3-1{
+    flex: 0 1 400px;
+    height: 600px;
+    outline: 1px lime solid;
+}
+.flexB-3-2{
+    flex: 0 1 800px;
+}
+.flexB-3-2-1{
+    height: 300px;
+    outline: 1px lime solid;
+    display: flex;
+}
+.flexB-3-2-2{
+    flex: 0 1 400px;
+    height: 300px;
+    outline: 1px lime solid;
+}
+.flexB-4-1{
+    flex: 0 1 800px;
+    outline: 1px lime solid;
+}
+.flexB-4-2{
+    flex: 0 1 400px;
+    height: 600px;
+    outline: 1px lime solid;
+}
+.flexB-4-1-2{
+    height: 300px;
+    outline: 1px lime solid;
+    display: flex;
+}
+.flexB-4-1-2-1{
+    flex: 0 1 400px;
+    height: 300px;
+    outline: 1px lime solid;
+}
+.flexB-4-1-2-2{
+    height: 150px;
+    outline: 1px lime solid;
+}

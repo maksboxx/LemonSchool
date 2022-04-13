@@ -1,0 +1,113 @@
+
+        h1{
+            font-size: 65px;
+            font-weight: 800;
+            color: #694E4E;
+        }
+        .main_block{
+            text-align: center;
+            background:#F5EEDC ;
+            color: #694E4E;
+            margin: 0 auto 20px auto;
+            width: 1200px;
+            padding: 0px 0px 20px 0px;
+            border: 2px solid #886F6F;
+        }  
+        
+        .population{
+            font-size: 17px;
+            color: darkred;
+            font-weight: 800;
+            border-bottom: 1px solid #886F6F;
+        }
+        
+        p{
+            line-height: 2;
+        }
+        
+        .main_block h2{
+            font-size: 20px;
+            font-weight: 800;
+            color: #694E4E;
+            margin: 10px 450px 10px;
+            border: dashed 1px #886F6F;
+            padding: 10px 10px ;
+            background-color: lightgoldenrodyellow;
+        }
+        
+        .main_block>div h3{
+            border-bottom: 1px solid #9cdff0;
+            font-weight: 800;
+            margin: 0 450px 0;
+            padding-bottom: 3px;
+        }
+        .dercription{
+            margin: 0 0 15px 0;
+        }
+        
+        a{
+            color:#694E4E;
+            font-weight: 700;
+            font-size: large;
+            background-color: #F5EEDC;
+        }
+
+        .menu{
+            display: flex;
+            position: fixed;
+            top:50%;
+        }
+        .links{
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px #694E4E solid;
+            height: 150px;
+            background-color: #F5EEDC;
+            text-align: center;
+            padding: 5px 10px;
+            display: none;
+        }
+        .links a{
+            text-decoration:none;
+        }
+        .open{
+            writing-mode: vertical-lr;
+            background-color: #F5EEDC;
+            color: #694E4E;
+            border:#694E4E 1px solid;
+            padding: 5px;
+        }
+        .slide:hover+.links{
+        display: flex;
+        }
+        .links:hover{
+            display: flex;
+         }
+         a:hover{
+             color: black;
+             border-bottom: 1px black solid;
+         }
+.nv{
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+}
+.nv p{
+    position: absolute;
+    top:50%;
+    background-color: #F5EEDC;
+    height: 50px;
+    margin-top: -25px;
+    width: 100%;
+}
+.decription_img{
+    display: none;
+}
+.img_facts:hover+.decription_img{
+    display: block;
+}
+.decription_img:hover{
+    display: block;
+}
+    
+        
